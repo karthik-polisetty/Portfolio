@@ -1,17 +1,17 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    to right,
+    #000000,
+    #000000
   );
 
   --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    to right,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.9)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #ffffff;
 }
 
 .purple {
@@ -321,6 +321,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-image: var(--section-background-color) !important;
 }
 
 .home-about-description {
